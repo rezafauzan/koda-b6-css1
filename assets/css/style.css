@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+nav {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    text-align: center;
+    line-height: 64px;
+}
+
+nav .brand a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a{
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+}
