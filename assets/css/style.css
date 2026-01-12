@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
@@ -11,26 +11,22 @@ nav {
     width: 100%;
     background: rgba(0, 0, 0, 0.9);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     line-height: 64px;
 }
 
-nav .brand a{
+nav .brand a {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-nav ul li {
-    display: block;
-}
-
-nav ul li a{
+nav ul li a {
     color: #AAAAAA;
     text-decoration: none;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -40,5 +36,11 @@ nav ul li a:hover{
     nav ul li {
         display: inline-block;
         margin-right: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav ul li {
+        display: block;
     }
 }
